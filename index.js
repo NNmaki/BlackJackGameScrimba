@@ -16,7 +16,9 @@ let cardsEl = document.getElementById("cards-el")
 let sumEl = document.getElementById("sum-el")
 
 function getRandomCard() {
-    return 5
+    let extraCard = Math.floor(Math.random() * 10 ) +1
+    return extraCard
+    // return 5
 }
 
 function renderGame() {
