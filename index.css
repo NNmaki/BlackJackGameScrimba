@@ -9,7 +9,13 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-shadow: 1px 1px 1px black;
+}
 
+.main-container {
+    background-color: red;
+    width: 60%;
+    margin: 50px auto 50px auto;
+    padding: 20px;
 }
 
 h1 {
