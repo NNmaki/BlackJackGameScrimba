@@ -1,7 +1,4 @@
 
-// Tama on lapparilla tehty js, jossa getrandomcard fuctio
-
-// githubissa firscard ja seconcard funktiossa myos hardcoded value
 
 let firstCard = getRandomCard()
 let secondCard = getRandomCard()
@@ -25,15 +22,12 @@ function getRandomCard() {
 function renderGame() {
     if (sum <= 20) {
         message = "Do you want to draw a new card?"        
-        message = "Do you want to draw a new card?"
     } else if (sum === 21) {
         message = "Wohoo! You've got Blackjack!"
         hasBlackjack = true        
-        hasBlackjack = true
     } else {
         message = "You're out of the game!"
         isAlive = false
-        isAlive = false     
     }
     cardsEl.textContent = "Cards: "
     for (let i = 0; i < cards.length; i++ ) {
