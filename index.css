@@ -13,7 +13,6 @@ body {
 }
 
 .main-container {
-    background-color: red;
     background-image: url(images/table_inner.png);
     background-size: cover;
     border: 3px solid black;
